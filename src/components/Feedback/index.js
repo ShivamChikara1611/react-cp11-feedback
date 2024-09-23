@@ -1,4 +1,3 @@
-// Write your React code here.
 import {Component} from 'react'
 
 import './index.css'
@@ -41,7 +40,7 @@ class Feedback extends Component {
 
     return (
       <div className="feedback-summary-container">
-        <img src={loveEmojiUrl} alt="loveEmoji" className="love-emoji" />
+        <img src={loveEmojiUrl} alt="love emoji" className="love-emoji" />
         <h1 className="thank-you-text">Thank You!</h1>
         <p className="feedback-summary">
           We will use your feedback to improve our customer support performance.

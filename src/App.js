@@ -2,7 +2,7 @@ import Feedback from './components/Feedback'
 
 import './App.css'
 
-const resources = {
+export const feedbackData = {
   emojis: [
     {
       id: 0,
@@ -23,6 +23,6 @@ const resources = {
   loveEmojiUrl: 'https://assets.ccbp.in/frontend/react-js/love-emoji-img.png',
 }
 
-const App = () => <Feedback resources={resources} />
+const App = () => <Feedback feedbackData={feedbackData} />
 
 export default App
